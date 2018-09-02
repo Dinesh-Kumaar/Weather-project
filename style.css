@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.container{
+    padding: 15px;
+    position: relative;
+    transform: translate(39%,35%);
+    width: 700px;
+    height: 330px;
+    text-align: center;
+    background: dodgerblue;
+}
+.input-modal{
+    background: #ccc;
+    width: 50%;
+    position: absolute;
+    top: 0%;
+    z-index: 1;
+    padding: 7px;
+    transform: translate(50%,8%);
+}
+.input-modal #w-close{
+    position: absolute;
+    top: 0;
+    right: -8%;
+    padding: 9px;
+    background: red;
+    font-size: 22px;
+    cursor: pointer;
+    transition: all .6s;
+}
+.input-modal #w-close:hover{
+    background: black;
+    color: red;
+}
+.input-modal .input-form input{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    height: 28px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #0ef03f;
+}
+.input-modal .input-form label{
+    font-size: 18px;
+    margin-right: 125px;
+    margin-bottom: 10px;
+}
+.output-modal{
+    position:absolute;
+    top: 0%;
+    margin-top: 25px;
+    background: #0ef03f;
+    width: 700px;
+    text-align: center;
+}
+
