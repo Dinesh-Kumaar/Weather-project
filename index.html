@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather projects</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/weather-icons.css">
-    <link rel="stylesheet" href="css/weather-icons-wind.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
 </head>
 <body>
@@ -42,11 +40,13 @@
        </div>
        <div class="w-date-time">
            <div class="w-date">
-               <p id="month">sep</p>
-               <h2 id="date">13</h2>
-               <p id="year">2018</p>
+               <p id="month"></p>
+               <h2 id="date"></h2>
+               <p id="year"></p>
            </div>
-           <div class="w-time"></div>
+           <div class="w-time">
+               <p id="c-time"></p><span id="am"></span>
+           </div>
        </div>
     </div>
     <script src="weather.js"></script>

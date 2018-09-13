@@ -78,6 +78,7 @@ body{
     height: 60px;
     background: #243b55;
     margin-left: -15px;
+    position: relative;
 }
 .w-date #month{
     font-size: 28px;
@@ -90,4 +91,17 @@ body{
 .w-date #year{
     font-size: 28px;
     margin-top: -25px;
+}
+#c-time{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    margin-left: -15px;
+}
+#am{
+    position: absolute;
+    top: 22px;
+    right: 15px;
+    font-size: 12px;
+    color: #1ec2e9;;
 }

@@ -30,3 +30,6 @@ weather.getWeather()
             })
             .catch(err => console.log(err));
  }
+
+
+
