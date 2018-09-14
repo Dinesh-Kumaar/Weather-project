@@ -1,5 +1,5 @@
 //init weather
-const weather = new Weather('Coimbatore','TN');
+const weather = new Weather('Ooty','TN');
 //init ui
 const ui = new UI();
 
