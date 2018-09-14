@@ -7,10 +7,19 @@
     <title>Weather projects</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700">
+    <!-- Search icon -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <!-- Search Autocomplete -->
+     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYgA75U5hGlcSIqS--W_zQ4sn6LbMxaIo&libraries=places"></script>
 </head>
 <body>
+    <div class="container">       
     <div class="brand">
         <h2>Local Weather Application</h2>
+    </div>
+    <div class="search">
+        <input type="text" id="place-search" placeholder="Search you city ......">
+        <a href="#" onclick="placeSearch()"><i class="fa fa-search" aria-hidden="true"></i></a>
     </div>
     <div class="container">
        <div class="w-important">
@@ -49,6 +58,7 @@
            </div>
        </div>
     </div>
+</div>
     <script src="weather.js"></script>
     <script src="ui.js"></script>
     <script src="app.js"></script>

@@ -16,3 +16,4 @@ class Weather {
         this.state = state;
       }
 }
+
