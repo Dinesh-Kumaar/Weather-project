@@ -128,15 +128,25 @@ body{
    top: 1px;
    right: 37px;
 }
+footer{
+   
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+/* Media Queries */
 @media screen and (max-width: 860px){
     body{
         background: linear-gradient(to right, #2b32b2, #1488cc);
     }
     .brand{
-        color: #fff;
+        margin-left: 0%;
+        text-align: center;
     }
     .search{
-        top: 15%;
+        top: auto;
         left: 10%;
         width: 100%;
     }
@@ -146,7 +156,7 @@ body{
     }
     .search i{
         right: 39px;
-        padding: 12px;
+        /* padding: 12px; */
     }
     .container{
         display: block;
@@ -181,16 +191,56 @@ body{
         margin: 40px 0 0 10%;
         display: grid;
     }
+    footer{
+        background: #fff;
+        margin-top: 2%;
+    }
 }
-@media screen and (min-width: 861px){
+@media screen and (min-width: 880px){
     .brand{
         padding: 0;
-        margin: 37px 0 0 0;
-        position: relative;
-        left: 10%;
+        margin-top: 3%;
         font-size: 1rem;
     }
     .search{
-        right: 0;
+        right: 3%;
+    }
+}
+@media screen and (min-width: 1020px){
+    .brand{
+        padding: 0;
+        margin-top: 0%;
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .brand{
+        margin-left: 0%;
+        font-size: 1.2rem;
+        font-weight: 100px;
+        text-align: center;
+    }
+    .w-important{
+        margin-left: 10%;
+    }
+    .w-date-time{
+        margin: 40px 10%;
+    }
+    .w-date{
+        margin: 0 10% 0 10%;
+    }
+    .w-time{
+        margin: 40px 15% 0 15%;
+    }
+    .w-ad-details{
+        text-align: center;
+    }
+    footer{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 334) {
+    .search i{
+       color: #1488cc;
     }
 }
