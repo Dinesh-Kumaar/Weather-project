@@ -20,7 +20,8 @@ body{
     box-sizing: content-box;
 }
 .w-important{
-    width: 500px;
+    /* width: 500px; */
+    width: 55%;
     min-height: 300px;
     padding: 45px;
     background: #243b55;
@@ -127,22 +128,69 @@ body{
    top: 1px;
    right: 37px;
 }
-@media (max-width: 860px){
+@media screen and (max-width: 860px){
     body{
         background: linear-gradient(to right, #2b32b2, #1488cc);
     }
     .brand{
-        margin: 0;
-        text-align: center;
+        color: #fff;
     }
     .search{
-        top: 9%;
+        top: 15%;
         left: 10%;
         width: 100%;
-        /* text-align: center; */
     }
     #place-search{
         width: 80%;
         padding: 12px;
+    }
+    .search i{
+        right: 39px;
+        padding: 12px;
+    }
+    .container{
+        display: block;
+        margin: 100px 0  0 -50px;
+        padding: 0 25px 0 25px;
+        width: 120%;
+        min-height: 100%;
+    }
+    .w-important{
+        padding-bottom: 13px;
+    }
+    .w-details{
+        display: block;
+        text-align: center;
+    }
+    .w-info{
+        margin-top: -50px;
+    }
+    .w-ad-details{
+        margin-top: 1px;
+    }
+    .w-date-time{
+         display: block;
+        margin: 40px 0 0 220px;
+        width: 100%; 
+    }
+    .w-date{
+        padding: 10px 60px 0 60px; 
+        width: 30%;
+    }
+    .w-time{
+        margin: 40px 0 0 10%;
+        display: grid;
+    }
+}
+@media screen and (min-width: 861px){
+    .brand{
+        padding: 0;
+        margin: 37px 0 0 0;
+        position: relative;
+        left: 10%;
+        font-size: 1rem;
+    }
+    .search{
+        right: 0;
     }
 }
